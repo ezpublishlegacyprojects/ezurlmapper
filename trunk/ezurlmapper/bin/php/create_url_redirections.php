@@ -30,10 +30,10 @@
 require 'autoload.php';
 
 $cli = eZCLI::instance();
-$script = eZScript::instance( array( 'description'       => ( "RBA. Create the various URL redirections required.\n" .
+$script = eZScript::instance( array( 'description'       => ( "Create the various URL redirections required.\n" .
                                                               "This script maps part of the former website's URLs to new ones.\n" .
                                                               "\n" .
-                                                              "./extension/rba/bin/php/create_url_redirections.php" ),
+                                                              "./extension/ezurlmapper/bin/php/create_url_redirections.php" ),
                                      'use-session'       => true,
                                      'use-modules'       => true,
                                      'use-extensions'    => true ) );
